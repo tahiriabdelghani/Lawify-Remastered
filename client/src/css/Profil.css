@@ -1,0 +1,82 @@
+.container1 {
+  user-select: none;
+  margin: 80px auto;
+  background: #38bec9;
+  color: #b3b8cd;
+  border-radius: 5px;
+  width: 400px;
+  text-align: center;
+  box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.75);
+}
+.profil-description {
+  font-size: 23px;
+  font-weight: 300px;
+  color: black;
+  font-weight: bold;
+}
+
+.cover-photo {
+  background: url(https://images.unsplash.com/photo-1540228232483-1b64a7024923?ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80);
+  height: 160px;
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+.flex {
+  display: flex;
+}
+.profile {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  margin: 93px 0 0 -175px;
+  border: 1px solid black;
+  padding: 7px;
+  background: black;
+}
+.profile-name {
+  font-size: 23px;
+  font-weight: bold;
+  margin: 40px 0 0 120px;
+  color: black;
+}
+.about {
+  margin-top: 35px;
+  line-height: 21px;
+  color: black;
+  font-size: 15px;
+  font-style: italic;
+}
+button {
+  margin: 20px 0 40px 0;
+}
+.msg-btn,
+.follow-btn {
+  background: #405f5f;
+  border: 1px solid #405f5f;
+  padding: 10px 25px;
+  color: #231e39;
+  border-radius: 3px;
+  font-family: Montserrat, sans-serif;
+  cursor: pointer;
+}
+.follow-btn {
+  margin-left: 10px;
+  background: transparent;
+  color: black;
+}
+.follow-btn:hover {
+  color: #231e39;
+  background: #405f5f;
+  transition: 0.5s;
+}
+.container1 i {
+  padding-left: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+  color: #405f5f;
+}
+.container1 i:hover {
+  color: #405f5f;
+}

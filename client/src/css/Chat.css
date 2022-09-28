@@ -1,0 +1,104 @@
+.formulaire {
+  padding: 15px 25px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+input {
+  font-family: "Lato";
+}
+
+a {
+  color: #0000ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#wrapper,
+#loginform {
+  margin: 0 auto;
+  padding-bottom: 25px;
+  background: var(--white);
+  width: 600px;
+  max-width: 100%;
+  border: 1px solid #0088a9;
+  border-radius: 1px;
+}
+.container {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+#chatbox {
+  text-align: left;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  padding: 10px;
+  background: #fff;
+  height: 300px;
+  width: 530px;
+  border: 1px solid #0088a9;
+  overflow: auto;
+  border-radius: 4px;
+  border-bottom: 4px solid #0088a9;
+}
+
+#usermsg {
+  flex: 1;
+  border-radius: 4px;
+  border: 1px solid #0088a9;
+}
+
+#submitmsg,
+#enter {
+  cursor: pointer;
+  color: var(--white);
+  background: var(--primary-500);
+  border: transparent;
+  border-radius: var(--borderRadius);
+  letter-spacing: var(--letterSpacing);
+  padding: 0.375rem 0.75rem;
+  box-shadow: var(--shadow-2);
+  transition: var(--transition);
+  text-transform: capitalize;
+  display: inline-block;
+  font-weight: bold;
+}
+
+#menu {
+  padding: 15px 25px;
+  display: flex;
+}
+
+#menu p.welcome {
+  flex: 1;
+  font-size: 18px;
+  color: black;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+#menu p.welcome::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  background-color: #0088a9;
+  height: 2px;
+  box-sizing: border-box;
+  width: 70px;
+}
+
+a#exit {
+  color: white;
+  background: #0088a9;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+  text-decoration: none;
+}
